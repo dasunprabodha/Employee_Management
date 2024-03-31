@@ -40,5 +40,4 @@ public class EmployeeController {
     public List<Employee> getEmployee(@RequestParam(value = "q", required = false) String query) {
         return employeeService.findEmployees(query);
     }
-
 }
