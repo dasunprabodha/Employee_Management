@@ -20,15 +20,17 @@ public class EmployeeController {
 
     @ResponseStatus(HttpStatus.CREATED)
     @PostMapping
-    public ResponseEntity<String> saveEmployee(@RequestBody @Valid Employee employee){
-        return  employeeService.saveEmployee(employee);
+    public ResponseEntity<String> saveEmployee(@RequestBody @Valid Employee employee) {
+        return employeeService.saveEmployee(employee);
     }
+
     @ResponseStatus(HttpStatus.NO_CONTENT)
     @DeleteMapping("/{employeeId}")
     public void deleteEmployee(@PathVariable("employeeId") Integer employeeId) {
         employeeService.deleteEmployeeById(employeeId);
 
     }
+
     @ResponseStatus(HttpStatus.NO_CONTENT)
     @PatchMapping("/{employeeId}")
     public void updateEmployee(@PathVariable("employeeId") Integer employeeId,
@@ -36,6 +38,7 @@ public class EmployeeController {
         employee.setId(employeeId);
         employeeService.updateEmployee(employee);
     }
+
     @GetMapping
     public List<Employee> getEmployee(@RequestParam(value = "q", required = false) String query) {
         return employeeService.findEmployees(query);
