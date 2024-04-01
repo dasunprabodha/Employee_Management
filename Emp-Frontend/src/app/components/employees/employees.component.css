@@ -1,0 +1,165 @@
+#tbl-employee thead tr th:first-child,
+#tbl-employee thead tr td:first-child{
+    width: 70px;
+}
+
+#tbl-employee thead tr th:last-child,
+#tbl-employee thead tr td:last-child{
+    width: 70px;
+}
+
+.contact {
+    max-width: 110px;
+    word-wrap: break-word;
+}
+
+#tbl-employee tbody tr {
+    cursor: pointer;
+}
+
+.actions svg:first-child:hover {
+    fill: green;
+}
+
+.actions svg:last-child:hover {
+    fill: red;
+}
+
+#loader {
+    visibility: hidden;
+}/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.container-xl {
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto; /* Center the container */
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #343a40; /* Dark background */
+    color: #fff; /* White text */
+}
+
+nav .nav-link {
+    color: #fff; /* White text for nav links */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+/* Modal Styles */
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #343a40; /* Dark background */
+    color: #fff; /* White text */
+    border-bottom: none; /* Remove border bottom */
+}
+
+.modal-body {
+    background-color: #fff; /* White background */
+}
+
+.modal-footer {
+    background-color: #f8f9fa; /* Light gray background */
+    border-top: none; /* Remove border top */
+}
+
+/* Tooltip Styles */
+.tooltip-inner {
+    background-color: #343a40; /* Dark background */
+    color: #fff; /* White text */
+}
+/* Table Styles */
+
+.container-xl {
+    padding: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.table-light th,
+.table-light td {
+    border-color: #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #dee2e6;
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+    border-bottom-width: 2px;
+}
+
+/* Responsive Classes */
+
+.d-none {
+    display: none !important;
+}
+
+.d-xl-table-cell {
+    display: table-cell !important;
+}
+
+/* Actions */
+
+.actions svg {
+    cursor: pointer;
+    color: #6c757d;
+    transition: color 0.3s ease;
+}
+
+.actions svg:hover {
+    color: #343a40;
+}
+
+/* Tooltip */
+
+[data-bs-toggle="tooltip"] {
+    position: relative;
+}
+
+.tooltip-inner {
+    padding: 5px 10px;
+    background-color: #343a40;
+    color: #fff;
+    border-radius: 4px;
+}
+
+/* No Records Found */
+
+tfoot td {
+    text-align: center;
+    font-style: italic;
+    color: #868e96;
+}

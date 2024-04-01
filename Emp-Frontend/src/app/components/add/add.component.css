@@ -1,0 +1,237 @@
+#tbl-customers thead tr th:first-child,
+#tbl-customers thead tr td:first-child{
+    width: 70px;
+}
+
+#tbl-customers thead tr th:last-child,
+#tbl-customers thead tr td:last-child{
+    width: 70px;
+}
+
+.contact {
+    max-width: 110px;
+    word-wrap: break-word;
+}
+
+#tbl-customers tbody tr {
+    cursor: pointer;
+}
+
+.actions svg:first-child:hover {
+    fill: green;
+}
+
+.actions svg:last-child:hover {
+    fill: red;
+}
+
+#loader {
+    visibility: hidden;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; 
+}
+
+.container-xl {
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+
+nav {
+    background-color: #343a40; 
+    color: #fff; 
+}
+
+nav .nav-link {
+    color: #fff; 
+}
+
+main {
+    padding: 20px;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #343a40; 
+    color: #fff; 
+    border-bottom: none; 
+}
+
+.modal-body {
+    background-color: #fff; 
+}
+
+.modal-footer {
+    background-color: #f8f9fa; 
+    border-top: none; 
+}
+
+.tooltip-inner {
+    background-color: #343a40; 
+    color: #fff; 
+}
+.modal-content {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.modal-footer {
+    background-color: #f8f9fa;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.toast-container {
+    z-index: 1050; 
+}
+
+.toast {
+    background-color: #343a40;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.toast-header {
+    background-color: #343a40;
+    border-bottom: none;
+}
+
+.toast-body {
+    padding: 10px;
+}
+
+#progress-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 5px;
+    background-color: #007bff;
+    z-index: 9999;
+    transition: width 0.3s ease;
+}/* Styles for Modal */
+.modal-content {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.modal-footer {
+    background-color: #f8f9fa;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.modal-footer button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.modal-footer button:hover {
+    background-color: #0056b3;
+}
+
+.toast-container {
+    z-index: 1050; }
+
+.toast {
+    background-color: #343a40;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.toast-header {
+    background-color: #343a40;
+    border-bottom: none;
+}
+
+.toast-header button {
+    color: #ffffff;
+}
+
+.toast-body {
+    padding: 10px;
+}
+
+#progress-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 5px;
+    background-color: #007bff;
+    z-index: 9999;
+    transition: width 0.3s ease;
+}
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+}
+
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    margin: 6px;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+}
+
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+tr {
+    margin-bottom: 10px; 
+}
+input[type="text"] {
+    margin-bottom: 10px; 
+    padding: 8px; 
+}
+
+
+
+
+
+  /* Define the style for the button when clicked */
+  .btn-primary:active {
+    background-color: #007bff; /* Change the background color to blue when clicked */
+    border-color: #007bff; /* Change the border color to blue when clicked */
+  }
+
