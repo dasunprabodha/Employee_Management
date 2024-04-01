@@ -8,7 +8,7 @@ import { FormsModule } from '@angular/forms';
 const routes: Routes = [
   { path: 'employees-list', component: EmployeesComponent },
   { path: 'add-employees', component: AddComponent },
-  { path: '**', redirectTo: '' } // Redirect to Home if the path is not found
+  { path: '**', redirectTo: '' } 
 ];
 
 @NgModule({
